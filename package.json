@@ -1,12 +1,16 @@
 {
-  "name": "www-websocket-playground",
-  "version": "1.0.0",
-  "description": "Playground for websocket implementing pong game",
-  "main": "server.ts",
-  "repository": "https://github.com/gabrielrangel/www-websocket-playground.git",
-  "author": "Gabriel Rangel",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.9.4"
-  }
+    "name": "www-websocket-playground",
+    "version": "1.0.0",
+    "description": "Playground for websocket implementing pong game",
+    "main": "server.ts",
+    "repository": "https://github.com/gabrielrangel/www-websocket-playground.git",
+    "author": "Gabriel Rangel",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.9.4",
+        "nodemon": "^2.0.20"
+    },
+    "scripts": {
+        "dev": "nodemon --watch 'src/' --exec 'ts-node src/app.ts' -e ts"
+    }
 }
