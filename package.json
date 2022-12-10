@@ -1,0 +1,9 @@
+{
+  "name": "www-websocket-playground",
+  "version": "1.0.0",
+  "description": "Playground for websocket implementing pong game",
+  "main": "server.ts",
+  "repository": "https://github.com/gabrielrangel/www-websocket-playground.git",
+  "author": "Gabriel Rangel",
+  "license": "MIT"
+}
