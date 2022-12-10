@@ -5,5 +5,8 @@
   "main": "server.ts",
   "repository": "https://github.com/gabrielrangel/www-websocket-playground.git",
   "author": "Gabriel Rangel",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
